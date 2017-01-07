@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>0B27932D32CCF1403593B48DAFA734B34285DED288D5464C52CDD7EB91B8660C</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>4D7111054C4C3E3C9C09B4DFF40CEACE7596B0B7CD68D767EC41EF7D8652D545</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>a296dd28-e64d-420a-9a81-bc830f7af02e_1.0.0.0_x86__fcswx6yhvfy1y</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a296dd28-e64d-420a-9a81-bc830f7af02e_fcswx6yhvfy1y!App</RegisteredUserModeAppID>
     <RegisteredPackageID>a296dd28-e64d-420a-9a81-bc830f7af02e</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-07T11:47:27.639</Modified>
+      <Modified>2017-01-07T12:43:17.605</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\bin\x86\Debug\UWPWeather_Bob2.exe">
       <PackagePath>entrypoint\UWPWeather_Bob2.exe</PackagePath>
-      <Modified>2017-01-07T11:47:27.095</Modified>
+      <Modified>2017-01-07T12:43:17.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anton Tkach\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -577,11 +577,11 @@
     <AppxPackagedFile Include="C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-07T11:43:14.950</Modified>
+      <Modified>2017-01-07T12:41:49.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\bin\x86\Debug\Core\UWPWeather_Bob2.exe">
       <PackagePath>UWPWeather_Bob2.exe</PackagePath>
-      <Modified>2017-01-07T11:47:27.470</Modified>
+      <Modified>2017-01-07T12:43:17.443</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

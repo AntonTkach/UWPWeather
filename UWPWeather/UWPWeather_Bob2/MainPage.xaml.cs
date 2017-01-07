@@ -30,15 +30,13 @@ namespace UWPWeather_Bob2
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            //var position = await LocationManager.GetPosition();
-
-            //RootObject myWeather =
-            //    await OpenWeatherMapProxy.GetWeather(
-            //        position.Coordinate.Latitude,
-            //        position.Coordinate.Longitude);
+            var position = await LocationManager.GetPosition();
 
             RootObject myWeather =
-               await OpenWeatherMapProxy.GetWeather(59.0,24.0);
+                await OpenWeatherMapProxy.GetWeather(
+                    position.Coordinate.Latitude,
+                    position.Coordinate.Longitude);
+
 
             string icon = String.Format(
                 "ms-appx:///Assets/Weather/{0}.png", 

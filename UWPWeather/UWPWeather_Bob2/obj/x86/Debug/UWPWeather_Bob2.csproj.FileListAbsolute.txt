@@ -192,4 +192,5 @@ C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\obj\
 C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\bin\x86\Debug\Core\RCX819D.tmp
+C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\bin\x86\Debug\Core\RCXDA0.tmp
+C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\bin\x86\Debug\Core\RCX77ED.tmp
