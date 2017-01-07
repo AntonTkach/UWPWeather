@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Runtime.Serialization;
@@ -11,14 +12,17 @@ namespace UWPWeather_Bob2
 {
     class OpenWeatherMapProxy
     {
-        public async static RootObject GetWeather(double lat, double lon)
+        public async static Task<RootObject> GetWeather(double lat, double lon)
         {
             var http = new HttpClient();
-            var response = await http.GetAsync("http://api.openweathermap.org/data/2.5/weather?lat=59.43696&lon=24.75353&appid=20664902c9168ec95873751c98461f6c");
-            var result = await response.Content.ReadAsStreamAsync();
+            var response = await http.GetAsync("http://api.openweathermap.org/data/2.5/weather?lat=59.43696&lon=24.75353&appid=20664902c9168ec95873751c98461f6c&units=metric");
+            var result = await response.Content.ReadAsStringAsync();
             var serializer = new DataContractJsonSerializer(typeof(RootObject));
 
+            var ms = new MemoryStream(Encoding.UTF8.GetBytes(result));
 
+            var data = (RootObject) serializer.ReadObject(ms);
+            return data;
         }
     }
 
@@ -66,6 +70,15 @@ namespace UWPWeather_Bob2
         [DataMember]
         public int deg { get; set; }
     }
+
+    /*
+    [DataContract]
+    public class Rain
+    {
+        [DataMember]
+        public double __invalid_name__1h { get; set; }
+    }
+    */
 
     [DataContract]
     public class Clouds

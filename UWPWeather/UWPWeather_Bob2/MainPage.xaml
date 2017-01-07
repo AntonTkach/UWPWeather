@@ -11,6 +11,9 @@
         <Button Content="Get Weather"
                 Click="Button_Click"/>
         <TextBlock Name="ResultTextBlock"/>
+        <Image Name="ResultImage"
+               Width="200"
+               Height="200"/>
 
     </StackPanel>
 </Page>
