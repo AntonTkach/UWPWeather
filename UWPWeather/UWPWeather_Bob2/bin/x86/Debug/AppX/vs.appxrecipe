@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-07T13:51:55.204</Modified>
+      <Modified>2017-01-07T14:01:27.548</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\bin\x86\Debug\UWPWeather_Bob2.exe">
       <PackagePath>entrypoint\UWPWeather_Bob2.exe</PackagePath>
-      <Modified>2017-01-07T13:51:54.627</Modified>
+      <Modified>2017-01-07T14:01:26.409</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anton Tkach\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -577,11 +577,11 @@
     <AppxPackagedFile Include="C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-01-07T13:51:28.573</Modified>
+      <Modified>2017-01-07T14:01:26.903</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\bin\x86\Debug\Core\UWPWeather_Bob2.exe">
       <PackagePath>UWPWeather_Bob2.exe</PackagePath>
-      <Modified>2017-01-07T13:51:55.024</Modified>
+      <Modified>2017-01-07T14:01:27.396</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

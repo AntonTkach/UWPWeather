@@ -16,7 +16,7 @@ namespace UWPWeather_Bob2
         {
             var http = new HttpClient();
             var url = String.Format("http://api.openweathermap.org/data/2.5/weather?lat={0}&lon={1}&appid=20664902c9168ec95873751c98461f6c&units=metric", lat, lon);
-            var response = await http.GetAsync("url");
+            var response = await http.GetAsync(url);
             var result = await response.Content.ReadAsStringAsync();
             var serializer = new DataContractJsonSerializer(typeof(RootObject));
 
