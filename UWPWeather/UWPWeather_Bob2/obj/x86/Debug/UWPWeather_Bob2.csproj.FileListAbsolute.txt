@@ -1,4 +1,3 @@
-C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\obj\x86\Debug\UWPWeather_Bob2.csprojResolveAssemblyReference.cache
 C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\obj\x86\Debug\App.g.i.cs
 C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\obj\x86\Debug\App.g.cs
 C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\obj\x86\Debug\MainPage.g.i.cs
@@ -192,5 +191,5 @@ C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\obj\
 C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\bin\x86\Debug\Core\RCXDA0.tmp
-C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\bin\x86\Debug\Core\RCX77ED.tmp
+C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\bin\x86\Debug\Core\RCX91B2.tmp
+C:\Users\Anton Tkach\Documents\GitHub\UWPWeather\UWPWeather\UWPWeather_Bob2\obj\x86\Debug\UWPWeather_Bob2.csprojResolveAssemblyReference.cache

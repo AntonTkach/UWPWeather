@@ -15,7 +15,8 @@ namespace UWPWeather_Bob2
         public async static Task<RootObject> GetWeather(double lat, double lon)
         {
             var http = new HttpClient();
-            var response = await http.GetAsync("http://api.openweathermap.org/data/2.5/weather?lat=59.43696&lon=24.75353&appid=20664902c9168ec95873751c98461f6c&units=metric");
+            var url = String.Format("http://api.openweathermap.org/data/2.5/weather?lat={0}&lon={1}&appid=20664902c9168ec95873751c98461f6c&units=metric", lat, lon);
+            var response = await http.GetAsync("url");
             var result = await response.Content.ReadAsStringAsync();
             var serializer = new DataContractJsonSerializer(typeof(RootObject));
 
